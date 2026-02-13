@@ -1,0 +1,18 @@
+model_config:
+  model_name: "MP-2xPINN"
+  net_prefixes: ["mom_net", "div_net"]
+  loss_terms: ["div", "mom", "bc", "ic", "alignment"]
+  hidden_units: [64,64,64,64]
+  mom_weight: 1
+  div_weight: 1
+  bc_weight: 1
+  ic_weight: 1
+  alignment_weight: 1
+train_config:
+  train_steps: 100000
+  learning_rate: 0.001
+  decay_every: 2000
+  update_every: 1000
+  print_every: 100
+  alpha: 0.9
+  batch_size: 8192

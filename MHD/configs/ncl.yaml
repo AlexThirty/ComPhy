@@ -1,0 +1,20 @@
+model_config:
+  model_name: "NCL"
+  net_prefixes: ["gauss_net"]
+  loss_terms: ["cont", "mom", "state", "ind", "ic"]
+  hidden_units: [256,256,256,256,256,256,256,256]
+  cont_weight: 1
+  state_weight: 1
+  ind_weight: 1
+  mom_weight: 1
+  gauss_weight: 1
+  alignment_weight: 1
+  ic_weight: 50
+train_config:
+  train_steps: 100000
+  learning_rate: 0.001
+  decay_every: 2000
+  update_every: 1000
+  print_every: 100
+  alpha: 0.9
+  batch_size: 1024

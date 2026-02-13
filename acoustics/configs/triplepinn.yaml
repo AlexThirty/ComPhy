@@ -1,0 +1,13 @@
+model_config:
+  model_name: "MP-3xPINN"
+  net_prefixes: ["pressure_net", "velx_net", "vely_net"]
+  loss_terms: ["pres", "velx", "vely", "bc", "ic", "alignment"]
+  hidden_units: [64,64,64,64]
+train_config:
+  train_steps: 100000
+  learning_rate: 0.001
+  decay_every: 2000
+  update_every: 1000
+  print_every: 100
+  alpha: 0.9
+  batch_size: 1024

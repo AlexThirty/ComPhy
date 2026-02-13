@@ -1,0 +1,8 @@
+jax==0.7.0
+matplotlib==3.10.8
+numpy==2.4.2
+pyvista==0.45.3
+PyYAML==6.0.3
+scipy==1.17.0
+torch==2.7.1
+wandb==0.25.0

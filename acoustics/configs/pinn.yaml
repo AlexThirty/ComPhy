@@ -1,0 +1,16 @@
+model_config:
+  model_name: "PINN"
+  net_prefixes: ["net"]
+  loss_terms: ["pres", "velx", "vely", "bc", "ic"]
+  hidden_units: [64,64,64,64]
+  mom_weight: 1
+  div_weight: 1
+  bc_weight: 1
+train_config:
+  train_steps: 100000
+  learning_rate: 0.001
+  decay_every: 2000
+  update_every: 1000
+  print_every: 100
+  alpha: 0.9
+  batch_size: 1024
