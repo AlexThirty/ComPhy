@@ -1,6 +1,17 @@
-# ComPhy
+# ComPhy: Composing Physical Models with end-to-end Alignment
+Code for the paper **[# ComPhy: Composing Physical Models with end-to-end Alignment](https://openreview.net/forum?id=ER7zDJXtRI)** accepted at The Fourteenth International Conference on Learning Representations (ICLR 2026).
 
-Composing Physical Models with end-to-end Alignment
+Please consider citing us
+
+	@inproceedings{
+        trenta2026comphy,
+        title={ComPhy: Composing Physical Models with end-to-end Alignment},
+        author={Alessandro Trenta and Andrea Cossu and Davide Bacciu},
+        booktitle={The Fourteenth International Conference on Learning Representations},
+        year={2026},
+        url={https://openreview.net/forum?id=ER7zDJXtRI}
+    }
+
 
 ## Overview
 We introduce ComPhy, a modular framework for learning system of PDEs by assigning each module to a (some) specific equation(s) in the system. An alignment mechanism ensures that the modules are kept informed of each other, collectively building a solution. Implemented modules are PINNs and Neural Conservation Laws (NCL) models.
