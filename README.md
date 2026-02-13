@@ -1,5 +1,5 @@
 # ComPhy: Composing Physical Models with end-to-end Alignment
-Code for the paper **[# ComPhy: Composing Physical Models with end-to-end Alignment](https://openreview.net/forum?id=ER7zDJXtRI)** accepted at The Fourteenth International Conference on Learning Representations (ICLR 2026).
+Code for the paper **[ComPhy: Composing Physical Models with end-to-end Alignment](https://openreview.net/forum?id=ER7zDJXtRI)** accepted at The Fourteenth International Conference on Learning Representations (ICLR 2026).
 
 Please consider citing us
 
